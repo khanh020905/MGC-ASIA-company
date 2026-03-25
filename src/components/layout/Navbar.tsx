@@ -67,7 +67,7 @@ export const Navbar = () => {
       </div>
 
       {/* Bottom Row - Navigation Links */}
-      <div className={`hidden md:flex items-center gap-10 transition-all ${
+      <div className={`hidden md:flex items-center gap-10 transition-all relative z-20 ${
         !scrolled ? "bg-white/85 backdrop-blur-md px-10 py-1.5 rounded-full shadow-[0_4px_20px_-4px_rgba(0,0,0,0.1)] border border-white/60" : ""
       }`}>
         {[
