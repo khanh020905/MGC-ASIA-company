@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import SplitTextAnimation from "../ui/SplitTextAnimation";
 import imgMedia from "../../assets/Screenshot 2026-03-25 082737.png";
 import imgMarketing from "../../assets/Screenshot 2026-03-25 082746.png";
 import imgTraining from "../../assets/Screenshot 2026-03-25 082753.png";
@@ -45,9 +46,11 @@ export const Solutions = () => {
         <span className="inline-block py-1 px-4 mb-6 border border-gray-300 rounded-full text-gray-500 text-sm tracking-[0.2em] uppercase">
           {t("solutions.subtitle")}
         </span>
-        <h2 className="font-display font-bold text-4xl md:text-5xl text-mgc-blue uppercase tracking-wide">
-          {t("solutions.title")}
-        </h2>
+        <SplitTextAnimation 
+          text={t("solutions.title")}
+          tag="h2"
+          className="font-display font-bold text-4xl md:text-5xl text-mgc-blue uppercase tracking-wide"
+        />
       </div>
 
       {/* Sticky Stacking Cards */}

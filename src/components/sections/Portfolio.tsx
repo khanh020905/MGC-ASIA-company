@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/Button";
 import { useTranslation } from "react-i18next";
+import SplitTextAnimation from "../ui/SplitTextAnimation";
 
 import img30Shine from "../../assets/30shine.png";
 import imgVaseline from "../../assets/vaseline.png";
@@ -49,9 +50,11 @@ export const Portfolio = () => {
         <div className="flex flex-col md:flex-row justify-between items-end mb-16">
           <div>
             <span className="text-mgc-red font-bold tracking-wider uppercase text-sm mb-4 block">{t('portfolio.subtitle')}</span>
-            <h2 className="font-display font-bold text-5xl text-gray-900 uppercase">
-              {t('portfolio.title').split(' ').slice(0, 1).join(' ')} <br/> {t('portfolio.title').split(' ').slice(1).join(' ')}
-            </h2>
+            <SplitTextAnimation 
+              text={t('portfolio.title')}
+              tag="h2"
+              className="font-display font-bold text-5xl text-gray-900 uppercase"
+            />
           </div>
           <Button variant="outline" className="hidden md:flex border-gray-900 text-gray-900 hover:bg-gray-200">{t('portfolio.cta')}</Button>
         </div>

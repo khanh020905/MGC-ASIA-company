@@ -1,5 +1,6 @@
 import { Marquee } from "@/components/ui/Marquee";
 import { useTranslation } from "react-i18next";
+import SplitTextAnimation from "../ui/SplitTextAnimation";
 
 export const Logos = () => {
   const { t } = useTranslation();
@@ -19,7 +20,11 @@ export const Logos = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
         
         <div className="shrink-0 text-center md:text-left">
-          <h2 className="font-display font-bold text-4xl text-gray-900 uppercase mb-2">{t('logos.title')}</h2>
+          <SplitTextAnimation 
+            text={t('logos.title')}
+            tag="h2"
+            className="font-display font-bold text-4xl text-gray-900 uppercase mb-2"
+          />
           <p className="text-gray-500 font-medium">{t('logos.subtitle')}</p>
         </div>
 

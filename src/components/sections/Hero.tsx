@@ -1,63 +1,91 @@
+import { useRef } from "react";
 import { motion } from "framer-motion";
 import { FaFacebookF, FaTiktok, FaYoutube } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import SplitTextAnimation from "../ui/SplitTextAnimation";
 
 export const Hero = () => {
   const { t } = useTranslation();
+  const bgRef = useRef<HTMLDivElement>(null);
+  const taglineRef = useRef<HTMLDivElement>(null);
+  const ctaRef = useRef<HTMLDivElement>(null);
+
+  useGSAP(() => {
+    const tl = gsap.timeline();
+
+    // 1. Background Image Zoom & In
+    tl.fromTo(bgRef.current, 
+      { scale: 1.1, opacity: 0 },
+      { scale: 1, opacity: 1, duration: 1.5, ease: "power2.out" }
+    );
+
+    // 2. Tagline Fade in (slightly after BG starts)
+    tl.fromTo(taglineRef.current,
+      { y: 20, opacity: 0 },
+      { y: 0, opacity: 1, duration: 1, ease: "power2.out" },
+      "-=0.5"
+    );
+
+    // 3. CTA Fade in (after everything else)
+    tl.fromTo(ctaRef.current,
+      { y: 20, opacity: 0 },
+      { y: 0, opacity: 1, duration: 1, ease: "power2.out" },
+      "-=0.2"
+    );
+  }, { scope: bgRef });
+
   return (
     <section className="relative h-screen w-full flex flex-col items-center justify-center overflow-hidden">
       
       {/* Full Background Image */}
-      {/* Note: Using a bright, modern corporate Unsplash image to represent a premium white-themed media ecosystem */}
-      <div className="absolute inset-0 z-0">
+      <div ref={bgRef} className="absolute inset-0 z-0 overflow-hidden">
         <img 
           src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2560&q=80" 
           alt="Media Studio Background" 
           className="w-full h-full object-cover object-center"
         />
-        {/* Minimal Gradient Overlays for text contrast without fading the image */}
+        {/* Minimal Gradient Overlays */}
         <div className="absolute inset-0 bg-white/20"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent"></div>
-        
-        {/* Soft elegant ambient white glow directly behind the text to ensure legibility */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] md:w-[800px] h-[400px] bg-white/80 blur-[80px] rounded-full pointer-events-none"></div>
       </div>
 
-      {/* Main Content (Centered over image) */}
+      {/* Main Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center mt-12 md:mt-20 flex flex-col items-center">
         
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-        >
+        <div ref={taglineRef}>
           <span className="inline-block py-1 px-4 mb-8 border border-gray-300 rounded-full text-gray-800 text-sm tracking-[0.2em] uppercase backdrop-blur-sm bg-white/50">
             {t('hero.tagline')}
           </span>
-        </motion.div>
+        </div>
 
-        <motion.h1 
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-          className="font-display font-bold text-5xl md:text-7xl lg:text-8xl tracking-tight leading-[1.05] mb-8 uppercase"
-        >
-          <span className="text-mgc-blue">{t('hero.title_1')}</span> <br />
-          <span className="text-mgc-red">{t('hero.title_2')}</span>
-        </motion.h1>
+        <h1 className="font-display font-bold text-5xl md:text-7xl lg:text-8xl tracking-tight leading-[1.2] mb-8 uppercase">
+          <SplitTextAnimation 
+            text={t('hero.title_1')}
+            className="text-mgc-blue"
+            delay={50}
+            duration={1.2}
+            tag="span"
+            marginBottom="-1.85rem"
+            startDelay={1500}
+          />
+          <SplitTextAnimation 
+            text={t('hero.title_2')}
+            className="text-mgc-red"
+            delay={50}
+            duration={1.2}
+            tag="span"
+            startDelay={2000}
+          />
+        </h1>
 
-
-
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
-          className="mt-12"
-        >
+        <div ref={ctaRef} className="mt-12">
           <button className="bg-mgc-red hover:bg-red-700 text-white px-10 py-4 rounded-full font-medium tracking-wide uppercase transition-all hover:scale-105 hover:shadow-[0_0_30px_rgba(196,30,42,0.5)]">
             {t('hero.cta')}
           </button>
-        </motion.div>
+        </div>
       </div>
 
       {/* Floating Side Socials */}

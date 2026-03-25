@@ -1,6 +1,7 @@
 import { useState, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import CircularGallery from "../ui/CircularGallery";
+import SplitTextAnimation from "../ui/SplitTextAnimation";
 
 // --- 3D ---
 import img3d_1 from "../../assets/3D/Screenshot 2026-03-25 083426.png";
@@ -119,9 +120,11 @@ export const CreativeGallery = () => {
         <span className="inline-block py-1 px-4 mb-6 border border-gray-300 rounded-full text-gray-500 text-sm tracking-[0.2em] uppercase">
           {t("creative.subtitle")}
         </span>
-        <h2 className="font-display font-bold text-4xl md:text-5xl text-mgc-blue uppercase tracking-wide">
-          {t("creative.title")}
-        </h2>
+        <SplitTextAnimation 
+          text={t("creative.title")}
+          tag="h2"
+          className="font-display font-bold text-4xl md:text-5xl text-mgc-blue uppercase tracking-wide"
+        />
       </div>
 
       {/* Category Buttons */}

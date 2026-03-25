@@ -1,6 +1,7 @@
 import { ArrowRight, Box, TrendingUp, BarChart3 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
+import SplitTextAnimation from "../ui/SplitTextAnimation";
 
 export const About = () => {
   const { t } = useTranslation();
@@ -10,11 +11,23 @@ export const About = () => {
         
         <div className="flex flex-col md:flex-row gap-12 justify-between items-end mb-20 border-b border-gray-200 pb-12">
           <div className="max-w-2xl">
-            <h2 className="font-display font-bold text-5xl md:text-6xl text-gray-900 mb-6 uppercase leading-tight">
-              <Trans i18nKey="about.title">
-                We shape the future of <span className="text-mgc-red">media commerce.</span>
-              </Trans>
-            </h2>
+            <div className="mb-6">
+              <SplitTextAnimation 
+                text={t('about.title_part1', { defaultValue: 'We shape the future of ' })}
+                className="font-display font-bold text-4xl md:text-6xl text-mgc-blue mb-2 uppercase leading-[1.2]"
+                delay={40}
+                tag="h2"
+                textAlign="left"
+                marginBottom="-1.85rem"
+              />
+              <SplitTextAnimation 
+                text={t('about.title_part2', { defaultValue: 'media commerce.' })}
+                className="font-display font-bold text-4xl md:text-6xl text-mgc-red uppercase leading-[1.2]"
+                delay={40}
+                tag="h2"
+                textAlign="left"
+              />
+            </div>
             <p className="text-xl text-gray-600">
               {t('about.desc')}
             </p>

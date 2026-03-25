@@ -5,7 +5,14 @@ import mgcLogo from "@/assets/MGC-02-LOGO.png";
 export const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [hidden, setHidden] = useState(false);
+  const [show, setShow] = useState(false);
   const { t, i18n } = useTranslation();
+
+  useEffect(() => {
+    // Stage the entrance animation for the end of the hero sequence
+    const timer = setTimeout(() => setShow(true), 3000);
+    return () => clearTimeout(timer);
+  }, []);
 
   useEffect(() => {
     let lastScrollY = window.scrollY;
@@ -31,8 +38,8 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-in-out flex flex-col items-center pt-2 ${
-      hidden ? "-translate-y-full opacity-0" : "translate-y-0 opacity-100"
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-1000 ease-[power3.out] flex flex-col items-center pt-2 ${
+      (hidden || !show) ? "-translate-y-full opacity-0" : "translate-y-0 opacity-100"
     } ${
       scrolled ? "bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100 pb-2" : "bg-transparent pb-4 pointer-events-none"
     } ${!scrolled ? "*:pointer-events-auto" : ""}`}>

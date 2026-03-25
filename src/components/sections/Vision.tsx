@@ -1,6 +1,7 @@
 import { PiShieldCheckDuotone, PiLightbulbFilamentDuotone, PiHandshakeDuotone, PiRocketLaunchDuotone } from "react-icons/pi";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import SplitTextAnimation from "../ui/SplitTextAnimation";
 
 export const Vision = () => {
   const { t } = useTranslation();
@@ -34,9 +35,11 @@ export const Vision = () => {
         
         {/* Header Content */}
         <div className="text-center max-w-4xl mx-auto mb-16">
-          <h2 className="font-display font-bold text-4xl md:text-5xl text-mgc-blue mb-8 uppercase tracking-wide">
-            {t("vision.title")}
-          </h2>
+          <SplitTextAnimation 
+            text={t("vision.title")}
+            tag="h2"
+            className="font-display font-bold text-4xl md:text-5xl text-mgc-blue mb-8 uppercase tracking-wide"
+          />
           <p className="text-lg md:text-xl text-gray-600 italic leading-relaxed font-light">
             "{t("vision.quote")}"
             <br/><br/>
