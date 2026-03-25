@@ -39,7 +39,7 @@ export const Solutions = () => {
   ];
 
   return (
-    <section className="relative bg-white py-24 px-6">
+    <section id="services" className="relative bg-white py-24 px-6">
       {/* Section Header */}
       <div className="text-center max-w-4xl mx-auto mb-16">
         <span className="inline-block py-1 px-4 mb-6 border border-gray-300 rounded-full text-gray-500 text-sm tracking-[0.2em] uppercase">

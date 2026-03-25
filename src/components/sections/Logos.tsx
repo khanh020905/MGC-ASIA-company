@@ -15,7 +15,7 @@ export const Logos = () => {
   ];
 
   return (
-    <section className="py-20 px-6 bg-white border-y border-gray-100">
+    <section id="logos" className="py-20 px-6 bg-white border-y border-gray-100">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
         
         <div className="shrink-0 text-center md:text-left">
