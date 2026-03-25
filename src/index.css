@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Outfit', system-ui, sans-serif;
+  
+  --color-mgc-blue: #1E3D6F;
+  --color-mgc-red: #B80D24;
+  --color-mgc-dark: #121212;
+  --color-mgc-muted: #222222;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900 font-sans antialiased overflow-x-hidden selection:bg-mgc-red selection:text-white relative;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight text-balance;
+  }
+}

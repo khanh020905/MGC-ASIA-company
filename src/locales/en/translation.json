@@ -1,0 +1,155 @@
+{
+  "navbar": {
+    "about": "ABOUT MGC",
+    "ecosystem": "ECOSYSTEM",
+    "clients": "CLIENTS",
+    "portfolio": "PORTFOLIO",
+    "creators": "CREATORS"
+  },
+  "hero": {
+    "tagline": "Leading The Future",
+    "title_1": "Media Commerce",
+    "title_2": "Ecosystem",
+    "desc_1": "We integrate entertainment and commerce to drive D2C revenue.",
+    "desc_2": "Building robust channels, growing massive networks, scaling brands.",
+    "cta": "Explore Ecosystem",
+    "scroll": "Scroll"
+  },
+  "vision": {
+    "title": "MGC ASIA VISION",
+    "quote": "“We merge entertainment and commerce to catapult D2C revenue. Our ambition is to become the leading Media Commerce ecosystem in the region, empowering thousands of brands to reach new heights and solidify their market presence.”",
+    "author": "MGC Asia Leadership",
+    "items": {
+      "0": {
+        "title": "Brand Positioning",
+        "desc": "The first & only comprehensive Media Commerce Solution provider in the market."
+      },
+      "1": {
+        "title": "Differentiated Value",
+        "desc": "Delivering end-to-end solutions that optimize absolute cost & maximize benefits for highly practical operations."
+      },
+      "2": {
+        "title": "Connection & Partnership",
+        "desc": "Pioneering highly beneficial campaigns for the vast KOL/KOC Network community."
+      },
+      "3": {
+        "title": "Development Philosophy",
+        "desc": "Sustainable corporate growth must create value for customers, partners, and society at large."
+      }
+    }
+  },
+  "solutions": {
+    "subtitle": "Our Ecosystem",
+    "title": "Comprehensive Solutions",
+    "items": {
+      "0": {
+        "title": "MGC Media — Content Strategy",
+        "desc": "Creative production of video and image content powered by audience insights and platform algorithms. We craft viral content that drives engagement and converts viewers into buyers.",
+        "tags": { "0": "Branding", "1": "Content Marketing", "2": "Viral Video" }
+      },
+      "1": {
+        "title": "Total Marketing — CMO Services",
+        "desc": "Your external Marketing Director. We accompany brands in identity building, media planning, and business strategy to maximize market impact and sustainable growth.",
+        "tags": { "0": "Brand Strategy", "1": "Media Planning", "2": "Growth" }
+      },
+      "2": {
+        "title": "Training & Technology Transfer",
+        "desc": "Professional training for livestreaming personnel and full operational process transfer — empowering your team to independently manage and scale online growth.",
+        "tags": { "0": "Livestream Training", "1": "Process Transfer", "2": "Team Building" }
+      },
+      "3": {
+        "title": "Social Commerce — MCN · TSP · TAP · ADS",
+        "desc": "Full-suite social commerce: Multi-Channel Network management, TikTok Shop Partner operations, Affiliate network coordination, and optimized advertising solutions.",
+        "tags": { "0": "MCN", "1": "TikTok Shop", "2": "Affiliate", "3": "Ads" }
+      }
+    }
+  },
+  "creative": {
+    "subtitle": "Production & Creative",
+    "title": "Creative Portfolio"
+  },
+  "stats": {
+    "gmv": "Monthly GMV (VND)",
+    "roi": "Average ROI",
+    "network": "Follower Network",
+    "services": {
+      "0": "LIVESTREAM STUDIO",
+      "1": "E-COMMERCE OPS",
+      "2": "KOC/KOL NETWORK",
+      "3": "CREATIVE PRODUCTION",
+      "4": "CHANNEL BUILDING",
+      "5": "TIKTOK SHOP",
+      "6": "SHOPEE MCN"
+    }
+  },
+  "about": {
+    "title": "We shape the future of <1>media commerce.</1>",
+    "desc": "Not just an agency. We are a comprehensive ecosystem providing end-to-end solutions combining entertainment content and deep commerce operations.",
+    "cta": "Read Our Story",
+    "pillar_1": {
+      "title": "Build",
+      "desc": "We lay the foundations. From building multi-platform traffic channels producing over 100+ videos/month, to fully operational TikTok and Shopee stores setup."
+    },
+    "pillar_2": {
+      "title": "Grow",
+      "desc": "We drive traffic. By connecting brands with our extensive network of top KOCs/KOLs and running daily professional livestreams from our 4K studios."
+    },
+    "pillar_3": {
+      "title": "Scale",
+      "desc": "We optimize conversions. Combining data-driven ads, creative KV productions, and robust fulfillment systems to multiply your D2C revenue."
+    }
+  },
+  "services": {
+    "subtitle": "Our Expertise",
+    "title": "Comprehensive Solutions",
+    "items": {
+      "0": {
+        "title": "E-commerce Operations",
+        "desc": "End-to-end management for TikTok Shop and Shopee. From store setup and product strategy to daily order fulfillment."
+      },
+      "1": {
+        "title": "MGC Studio & Livestream",
+        "desc": "Daily professional sales sessions broadcasted from our high-end 4K studios in HCM and Hanoi featuring dedicated hosts."
+      },
+      "2": {
+        "title": "Creator & Affiliate Network",
+        "desc": "Leverage our 'Open Network' of top KOCs and KOLs to amplify your brand message and drive massive affiliate conversions."
+      },
+      "3": {
+        "title": "Production & Creative",
+        "desc": "High-end visual production including KV photoshoots, 3D Design, VFX, and converting short-video creation."
+      }
+    }
+  },
+  "portfolio": {
+    "subtitle": "Selected Works",
+    "title": "Featured Campaigns",
+    "cta": "View All Projects",
+    "campaigns": {
+      "0": { "client": "30SHINE", "campaign": "Mega Live Event", "category": "Livestream" },
+      "1": { "client": "VASELINE", "campaign": "Product Launch Photoshoot", "category": "Production" },
+      "2": { "client": "VIB BANK", "campaign": "Influencer Takeover", "category": "KOL Network" },
+      "3": { "client": "DH FOODS", "campaign": "Video Marketing", "category": "Short Video" }
+    }
+  },
+  "logos": {
+    "title": "Trusted By",
+    "subtitle": "Top Brands & Platforms"
+  },
+  "team": {
+    "subtitle": "MGC Creator & Affiliate",
+    "title": "Top KOL Network",
+    "followers": "Followers"
+  },
+  "footer": {
+    "title": "KEEP IN TOUCH",
+    "desc": "Media Commerce Ecosystem. We specialize in integrating entertainment and commerce to drive D2C revenue for brands.",
+    "offices": "Offices",
+    "hcm_address": "140 Ngô Thị Thu Minh<br/>P. Tân Sơn Hòa, Q. Tân Bình<br/>TP. Hồ Chí Minh",
+    "hn_address": "Hà Nội Studio",
+    "social": "Social",
+    "copyright": "© 2026 MGC Asia. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

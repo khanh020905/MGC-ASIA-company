@@ -1,0 +1,155 @@
+{
+  "navbar": {
+    "about": "VỀ MGC",
+    "ecosystem": "HỆ SINH THÁI",
+    "clients": "ĐỐI TÁC",
+    "portfolio": "DỰ ÁN",
+    "creators": "CREATORS"
+  },
+  "hero": {
+    "tagline": "Dẫn Đầu Xu Hướng",
+    "title_1": "Hệ Sinh Thái",
+    "title_2": "Media Commerce",
+    "desc_1": "Chúng tôi kết hợp giải trí và thương mại để bứt phá doanh thu D2C.",
+    "desc_2": "Xây dựng kênh đa nền tảng, phát triển mạng lưới KOL/KOC, tối ưu và nhân bản doanh thu.",
+    "cta": "Khám Phá Hệ Sinh Thái",
+    "scroll": "Cuộn xuống"
+  },
+  "vision": {
+    "title": "TẦM NHÌN MGC ASIA",
+    "quote": "“Chúng tôi kết hợp giải trí và thương mại để bứt phá doanh thu D2C. Khát vọng trở thành hệ sinh thái Media Commerce hàng đầu, giúp mọi thương hiệu vươn tầm và khẳng định vị thế vững chắc.”",
+    "author": "MGC Asia Leadership",
+    "items": {
+      "0": {
+        "title": "Định vị thương hiệu",
+        "desc": "Nhà cung cấp Giải pháp Media Commerce Toàn diện đầu tiên & duy nhất tại thị trường."
+      },
+      "1": {
+        "title": "Giá trị khác biệt",
+        "desc": "Cung cấp giải pháp toàn phần giúp tối ưu chi phí, tối đa hóa lợi ích cho đối tác thực chiến."
+      },
+      "2": {
+        "title": "Kết nối & Đồng hành",
+        "desc": "Tiên phong tổ chức và tham dự những chiến dịch mang lại giá trị cho cộng đồng Mạng lưới KOL/KOC."
+      },
+      "3": {
+        "title": "Triết lý phát triển",
+        "desc": "Doanh nghiệp muốn phát triển bền vững phải tạo được giá trị cho cả khách hàng, đối tác và xã hội."
+      }
+    }
+  },
+  "solutions": {
+    "subtitle": "Hệ Sinh Thái",
+    "title": "Giải Pháp Toàn Diện",
+    "items": {
+      "0": {
+        "title": "MGC Media — Chiến Lược Nội Dung",
+        "desc": "Sản xuất sáng tạo nội dung video và hình ảnh dựa trên insight khán giả và thuật toán nền tảng. Tạo nội dung viral thúc đẩy tương tác và chuyển đổi người xem thành khách hàng.",
+        "tags": { "0": "Branding", "1": "Content Marketing", "2": "Viral Video" }
+      },
+      "1": {
+        "title": "Total Marketing — Dịch Vụ CMO",
+        "desc": "Giám đốc Marketing bên ngoài của bạn. Đồng hành cùng thương hiệu trong xây dựng bản sắc, kế hoạch truyền thông và chiến lược kinh doanh để tối đa hóa tác động thị trường.",
+        "tags": { "0": "Chiến Lược", "1": "Truyền Thông", "2": "Tăng Trưởng" }
+      },
+      "2": {
+        "title": "Đào Tạo & Chuyển Giao Công Nghệ",
+        "desc": "Đào tạo chuyên nghiệp nhân sự livestream và chuyển giao quy trình vận hành toàn bộ — trang bị cho đội ngũ tự quản lý và mở rộng tăng trưởng online.",
+        "tags": { "0": "Đào Tạo Livestream", "1": "Chuyển Giao Quy Trình", "2": "Xây Dựng Đội Ngũ" }
+      },
+      "3": {
+        "title": "Social Commerce — MCN · TSP · TAP · ADS",
+        "desc": "Trọn bộ giải pháp thương mại xã hội: Quản lý mạng lưới đa kênh (MCN), vận hành TikTok Shop Partner, điều phối Affiliate và tối ưu giải pháp quảng cáo.",
+        "tags": { "0": "MCN", "1": "TikTok Shop", "2": "Affiliate", "3": "Ads" }
+      }
+    }
+  },
+  "creative": {
+    "subtitle": "Sản Xuất & Sáng Tạo",
+    "title": "Dự Án Sáng Tạo"
+  },
+  "stats": {
+    "gmv": "Doanh thu GMV 1 tháng",
+    "roi": "Trung bình ROI",
+    "network": "Mạng lưới người theo dõi",
+    "services": {
+      "0": "STUDIO LIVESTREAM",
+      "1": "VẬN HÀNH E-COMMERCE",
+      "2": "MẠNG LƯỚI KOC/KOL",
+      "3": "SẢN XUẤT SÁNG TẠO",
+      "4": "XÂY DỰNG KÊNH",
+      "5": "TIKTOK SHOP",
+      "6": "SHOPEE MCN"
+    }
+  },
+  "about": {
+    "title": "Kiến tạo tương lai cùng <1>media commerce.</1>",
+    "desc": "Không chỉ là một Agency. Chúng tôi là một hệ sinh thái toàn diện cung cấp giải pháp từ nội dung giải trí đến vận hành thương mại chuyên sâu.",
+    "cta": "Hành Trình Của Chúng Tôi",
+    "pillar_1": {
+      "title": "Build",
+      "desc": "Xây dựng nền tảng vững chắc. Từ việc xây kênh traffic đa nền tảng với hơn 100+ video/tháng, đến thiết lập cửa hàng TikTok và Shopee chuẩn SEO."
+    },
+    "pillar_2": {
+      "title": "Grow",
+      "desc": "Phát triển lưu lượng truy cập qua mạng lưới KOCs/KOLs hàng đầu và livestream chuyên nghiệp hàng ngày tại các studio 4K của chúng tôi."
+    },
+    "pillar_3": {
+      "title": "Scale",
+      "desc": "Tối ưu hóa chuyển đổi. Kết hợp quảng cáo dựa trên dữ liệu, sản xuất hình ảnh KV sáng tạo và hệ thống xử lý đơn hàng mạnh mẽ để nhân bản doanh thu D2C."
+    }
+  },
+  "services": {
+    "subtitle": "Giải Pháp",
+    "title": "Dịch Vụ Toàn Diện",
+    "items": {
+      "0": {
+        "title": "Vận hành E-commerce",
+        "desc": "Quản lý toàn diện trên TikTok Shop và Shopee. Từ thiết lập cửa hàng, chiến lược sản phẩm đến xử lý đơn hàng mỗi ngày."
+      },
+      "1": {
+        "title": "MGC Studio & Livestream",
+        "desc": "Phiên bán hàng chuyên nghiệp được phát sóng trực tiếp mỗi ngày từ các studio 4K cao cấp tại TP.HCM và Hà Nội với host độc quyền."
+      },
+      "2": {
+        "title": "Mạng Lưới KOC & Affiliate",
+        "desc": "Tận dụng 'Mạng lưới Mở' gồm các KOC/KOL hàng đầu để khuếch đại độ phủ thương hiệu và bùng nổ doanh số mảng Affiliate."
+      },
+      "3": {
+        "title": "Sản Xuất Hình Ảnh & Video",
+        "desc": "Sản xuất hình ảnh cao cấp: chụp ảnh KV, thiết kế 3D, VFX và quay dựng video ngắn tập trung vào chuyển đổi."
+      }
+    }
+  },
+  "portfolio": {
+    "subtitle": "Dự Án Tiêu Biểu",
+    "title": "Chiến Dịch Nổi Bật",
+    "cta": "Xem Tất Cả Dự Án",
+    "campaigns": {
+      "0": { "client": "30SHINE", "campaign": "Phiên Mega Live", "category": "Livestream" },
+      "1": { "client": "VASELINE", "campaign": "Sản xuất hình ảnh ra mắt", "category": "Sản Xuất" },
+      "2": { "client": "VIB BANK", "campaign": "Chiến dịch KOL toàn diện", "category": "Mạng Lưới KOL" },
+      "3": { "client": "DH FOODS", "campaign": "Video Marketing chuyển đổi", "category": "Video Ngắn" }
+    }
+  },
+  "logos": {
+    "title": "Đối Tác Đồng Hành",
+    "subtitle": "Thương Hiệu & Nền Tảng Phân Phối"
+  },
+  "team": {
+    "subtitle": "Mạng Lưới MGC Affiliate",
+    "title": "Đội Ngũ KOL Hàng Đầu",
+    "followers": "Người theo dõi"
+  },
+  "footer": {
+    "title": "GIỮ LIÊN LẠC",
+    "desc": "Hệ Sinh Thái Media Commerce. Chúng tôi chuyên tích hợp giải trí và thương mại để bứt phá doanh thu D2C cho các thương hiệu.",
+    "offices": "Văn Phòng",
+    "hcm_address": "140 Ngô Thị Thu Minh<br/>P. Tân Sơn Hòa, Q. Tân Bình<br/>TP. Hồ Chí Minh",
+    "hn_address": "Hà Nội Studio",
+    "social": "Mạng Xã Hội",
+    "copyright": "© 2026 MGC Asia. Tiên phong giải pháp E-Commerce.",
+    "privacy": "Chính Sách Bảo Mật",
+    "terms": "Điều Khoản Dịch Vụ"
+  }
+}
